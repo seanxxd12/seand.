@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    background-color: white;
+    background-image: url('The Arm Formula_ How to use Muscle Testing To Answer Your Questions (1).jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"],
+input[type="number"],
+select {
+    width: 15%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #FFEFEF;
+}
+
+button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#output {
+    margin-top: 20px;
+}   
+h1{
+    color: black;
+    text-align: center;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FB9AD1   ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 999; 
+}
+
+.back-button:hover {
+    background-color: #FB9AD1;
+}

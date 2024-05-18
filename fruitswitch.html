@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Selector</title>
+    <link rel="stylesheet" href="fruit.css">
+</head>
+<body>
+    <div class="container">
+        <div class="fruit-selector">
+            <h1>Fruit Switch Case</h1>
+            <label for="fruit">Select a fruit:</label>
+            <select id="fruit">
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Orange">Orange</option>
+                <option value="Pineapple">Pineapple</option>
+            </select>
+            <button onclick="getFruitMessage()">Get Message</button>
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <button class="back-button" onclick="goBack()">Go Back</button>
+    <button id="nextButton">Next</button>
+
+    <script src="fruit.js"></script>
+</body>
+</html>
